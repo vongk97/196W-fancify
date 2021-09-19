@@ -19,8 +19,8 @@ function enlargeText() {
 function capsText() {
   someText.style.textTransform = "uppercase";
   someText.value = someText.value.split(".").join("-Moo.");
-  someText.value = someText.value.split("?").join("-Moo.");
-  someText.value = someText.value.split("!").join("-Moo.");
+  someText.value = someText.value.split("?").join("-Moo?");
+  someText.value = someText.value.split("!").join("-Moo!");
 }
 
 function applyBold() {
